@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Smooch+Sans:wght@700&display=swap');/* Usams o @import para importar uma fonte externa, no nosso caso agora, do google */
+
+body {
+    font-family: "Reboto Mono";
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+#tela-escura {
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    color: grey;
+    display: none;
+    padding-top: 400px;
+    position: absolute;
+    background-color: black;
+}
+
+/* Contem todas as 8 caixas do jogo */
+.container {
+    margin: 0 auto;
+    max-width: 240px; 
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    background: #394552;  /* fallback for old browsers */
+    border: 3px solid grey;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; /* espaçadas de uma forma igual */
+}
+
+.celula {
+    width: 75px; /*Altura*/
+    height: 65px; /*Largura*/
+    font-size: 30pt; /*Tamanho da Fonte*/
+    margin: 4px 2px; /*Margem entre elas*/
+    font-weight: 300; /*Espessura das fontes*/
+    padding-top: 10px; /*espaçamento interno*/
+    border-radius: 3px;
+    text-align: center; /*todo X e O ficarão no centro das celulas*/
+    background: #616a77;
+}
