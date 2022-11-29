@@ -1,5 +1,5 @@
 # Jogo da Velha
->Utilizado as seguintes linguagens:
+>Utilizado as seguintes linguagens :
 ~~~javascript
 Javascript
 ~~~
